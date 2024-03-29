@@ -2,6 +2,7 @@ import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import Three from "@/components/Three";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 

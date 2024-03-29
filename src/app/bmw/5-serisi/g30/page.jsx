@@ -4,11 +4,11 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "F40",
-  description: "F40",
+  title: "G30",
+  description: "G30",
 };
 
-const f40 = () => {
+const G30 = () => {
   const images = [
     "/images/cars/x3/x311.jpg",
     "/images/cars/x3/x31.jpg",
@@ -27,7 +27,7 @@ const f40 = () => {
     "Comfort plus modunun aktif edilmesi. (Şanzıman ve Süspansiyon konforunda ciddi iyileştirme yapar.)",
     "X menüsünün etkinleştirilmesi (Pusula, eğim ve rakımı gösterir.)",
     "Sürüş esnasında video izleme (HU_MGU gerekli)",
-    "Kadran temasının isteğe bağlı M, M135i veya Alpina olarak değiştirilmesi",
+    "Kadran temasının isteğe bağlı M5, M540i veya Alpina olarak değiştirilmesi",
     "Bowers & Wilkins ses ön ayarlarının aktif hale getirilmesi",
     "Lastik basınç göstergesinin yanında lastik sıcaklıklarının da gözükmesi",
     "M Setup menünün gösterilmesi (Tamamen görsel olarak gözükür işlevi yoktur.)",
@@ -38,7 +38,7 @@ const f40 = () => {
     "Start-Stop sisteminin hafızalı olarak kodlanması (Son ayarınızı hatırlar)",
     "Spor göstergenin, gelişmiş spor göstergeye dönüştürülmesi (G-metre, güç, tork, yağ sıcaklığı, turbo basıncı)",
     "Analog kadran (yarı hayalet) olan araçlarda dijital hız göstergesinin aktif edilmesi",
-    "Analog kadran (yarı hayalet) olan araçlarda 135i veya 140i logosu aktivasyonu",
+    "Analog kadran (yarı hayalet) olan araçlarda 550i yazısının aktif edilmesi",
     "Aracı ilk çalıştırdığınızdaki sürüş modunun isteğe bağlı olarak ayarlanması (sport+ ,  comfort+, eco vs)",
     "İç ambiyans renklerinde bronz rengin kırmızı renk ile değiştirilmesi",
     "Elektrikli bagaj olan araçlarda kumandadan tek basışta kapanması",
@@ -48,8 +48,8 @@ const f40 = () => {
   return (
     <>
       <Breadcrumb
-        pageName="1 Serisi -  F40"
-        description="F40 Gizli özellik listesi"
+        pageName="5 Serisi -  G30"
+        description="G30 Gizli özellik listesi"
       />
       <div className="mb-20 ml-14 flex">
         <Gallery images={images} />
@@ -59,4 +59,4 @@ const f40 = () => {
   );
 };
 
-export default f40;
+export default G30;

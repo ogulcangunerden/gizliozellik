@@ -1,24 +1,47 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import React from "react";
+import Card from "@/components/Card";
+import { Metadata } from "next";
 
 export const metadata = {
-  title: "Büyükçekmece Gizli Özellik",
-  description: "Büyükçekmece Gizli Özellik",
-  // other metadata
+  title: "2 Serisi",
+  description: "2 Serisi",
 };
 
-const AboutPage = () => {
+const Series2 = () => {
+  const images = [
+    {
+      src: "/images/cars/f22.jpeg",
+      alt: "F22 - F23",
+      description: "F22 - F23  (2014 - 2018)",
+      href: "/bmw/2-serisi/f22",
+    },
+    {
+      src: "/images/cars/f44.jpeg",
+      alt: "F44",
+      description: "F44 (2019 - )",
+      href: "/bmw/2-serisi/f44",
+    },
+  ];
+
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="2 Serisi"
+        description="Gizli özellik listesini görmek için lütfen aracınızın yılını seçiniz."
       />
-      <AboutSectionOne />
-      <AboutSectionTwo />
+      <div className="mx-4 my-4 grid grid-cols-1 gap-4 md:mx-8 md:my-8 md:grid-cols-2 lg:mx-12 lg:my-12 lg:grid-cols-3">
+        {images.map((image, index) => (
+          <Card
+            key={index}
+            description={image.description}
+            image={image}
+            href={image.href}
+          />
+        ))}
+      </div>
     </>
   );
 };
 
-export default AboutPage;
+export default Series2;

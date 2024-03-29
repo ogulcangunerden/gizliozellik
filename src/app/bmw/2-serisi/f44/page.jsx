@@ -4,11 +4,11 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "F40",
-  description: "F40",
+  title: "F44",
+  description: "F44",
 };
 
-const f40 = () => {
+const f44 = () => {
   const images = [
     "/images/cars/x3/x311.jpg",
     "/images/cars/x3/x31.jpg",
@@ -27,7 +27,7 @@ const f40 = () => {
     "Comfort plus modunun aktif edilmesi. (Şanzıman ve Süspansiyon konforunda ciddi iyileştirme yapar.)",
     "X menüsünün etkinleştirilmesi (Pusula, eğim ve rakımı gösterir.)",
     "Sürüş esnasında video izleme (HU_MGU gerekli)",
-    "Kadran temasının isteğe bağlı M, M135i veya Alpina olarak değiştirilmesi",
+    "Kadran temasının isteğe bağlı M2, M235i veya Alpina olarak değiştirilmesi",
     "Bowers & Wilkins ses ön ayarlarının aktif hale getirilmesi",
     "Lastik basınç göstergesinin yanında lastik sıcaklıklarının da gözükmesi",
     "M Setup menünün gösterilmesi (Tamamen görsel olarak gözükür işlevi yoktur.)",
@@ -48,8 +48,8 @@ const f40 = () => {
   return (
     <>
       <Breadcrumb
-        pageName="1 Serisi -  F40"
-        description="F40 Gizli özellik listesi"
+        pageName="2 Serisi -  F44"
+        description="F44 Gizli özellik listesi"
       />
       <div className="mb-20 ml-14 flex">
         <Gallery images={images} />
@@ -59,4 +59,4 @@ const f40 = () => {
   );
 };
 
-export default f40;
+export default f44;

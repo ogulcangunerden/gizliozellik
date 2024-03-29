@@ -14,7 +14,7 @@ const Series1 = () => {
       src: "/images/cars/f20.jpeg",
       alt: "F20 - F21",
       description: "F20 - F21  (2012 - 2019)",
-      href: "/",
+      href: "/bmw/1-serisi/f20",
     },
     {
       src: "/images/cars/m135.jpeg",
