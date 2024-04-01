@@ -9,7 +9,7 @@ export const metadata = {
   // other metadata
 };
 
-const Blog = () => {
+const skoda = () => {
   return (
     <>
       <Breadcrumb
@@ -28,4 +28,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default skoda;

@@ -8,7 +8,7 @@ export const metadata = {
   description: "Büyükçekmece Gizli Özellik",
 };
 
-const Blog = () => {
+const volkswagen = () => {
   return (
     <>
       <Breadcrumb
@@ -27,4 +27,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default volkswagen;
