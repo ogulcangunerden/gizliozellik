@@ -62,13 +62,6 @@ const menuData: Menu[] = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: "BMW",
-  //   path: "/about",
-  //   newTab: false,
-  //   submenu: [{ id: 333, title: "1 Serisi", path: "/1serisi", newTab: false }],
-  // },
   {
     id: 33,
     title: "MERCEDES",
@@ -112,6 +105,43 @@ const menuData: Menu[] = [
       },
     ],
   },
+  // {
+  //   id: 34,
+  //   title: "VAG",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 51,
+  //       title: "Audi",
+  //       path: "/audi",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 52,
+  //       title: "Volkswagen",
+  //       path: "/volkswagen",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 53,
+  //       title: "Cupra",
+  //       path: "/cupra",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 54,
+  //       title: "Skoda",
+  //       path: "/skoda",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 55,
+  //       title: "Seat",
+  //       path: "/seat",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
   {
     id: 3,
     title: "İletişim",

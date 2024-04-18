@@ -6,7 +6,6 @@ import Image from "next/image";
 export const metadata = {
   title: "Büyükçekmece Gizli Özellik",
   description: "Büyükçekmece Gizli Özellik",
-  // other metadata
 };
 
 const skoda = () => {
