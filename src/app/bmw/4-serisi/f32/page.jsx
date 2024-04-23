@@ -53,7 +53,7 @@ const f32 = () => {
         pageName="4 Serisi -  F32"
         description="F32 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

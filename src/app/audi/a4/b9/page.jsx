@@ -31,40 +31,13 @@ const a4 = () => {
     "Adaptif şerit kılavuzu (donanım desteği ve şerit asistanı varsa)",
     "Yokuş kalkış desteği güçlendirme",
     "Start Stop iptali",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
   ];
   return (
     <>
       <Breadcrumb pageName="A4" description="A4 Gizli özellik listesi" />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Image
-          src="/images/cars/audi/a4.jpeg"
+          src="/images/cars/audi/a4b99.jpeg"
           alt="a4"
           width={500}
           height={500}

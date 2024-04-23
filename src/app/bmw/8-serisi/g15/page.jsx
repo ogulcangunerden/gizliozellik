@@ -49,7 +49,7 @@ const g15 = () => {
         pageName="8 Serisi -  G15"
         description="G15 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

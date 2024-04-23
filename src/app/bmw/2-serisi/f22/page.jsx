@@ -54,7 +54,7 @@ const f22 = () => {
         pageName="1 Serisi -  F22"
         description="F22 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

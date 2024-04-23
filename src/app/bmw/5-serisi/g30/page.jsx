@@ -51,7 +51,7 @@ const G30 = () => {
         pageName="5 Serisi -  G30"
         description="G30 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

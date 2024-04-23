@@ -45,7 +45,7 @@ const f20 = () => {
         pageName="1 Serisi -  F20"
         description="F20 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

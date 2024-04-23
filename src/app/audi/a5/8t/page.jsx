@@ -4,11 +4,11 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata = {
-  title: "A4",
-  description: "A4",
+  title: "A5",
+  description: "A5",
 };
 
-const a4 = () => {
+const a5 = () => {
   const items = [
     "Kadran selamlama",
     "Tur zamanlayıcı ve yağ sıcaklığı (laptimer)",
@@ -17,9 +17,9 @@ const a4 = () => {
     "Emniyet kemeri ikazı iptali",
     "MMI üzerinden akü durumunun görüntülenmesi",
     "MMI üzerinden gündüz farı aç-kapa menüsü",
-    "Multimedya sistemi açılış logosu değiştirme (S4, S Line - Facelift A4’lerde logo seçeneği bulunmamaktadır)",
+    "Multimedya sistemi açılış logosu değiştirme (S5, S Line - Facelift A5’lerde logo seçeneği bulunmamaktadır)",
     "Seyir halinde video izleme (Bu özellik aracınıza video izleme özelliği kazandırmaz, video izlenebilen ünitelerde hareket halinde video izlemeyi aktif eder)",
-    "Kadran karşılama logosu değiştirme (S4,RS4)",
+    "Kadran karşılama logosu değiştirme (S5,RS5)",
     "Multimedya sistemine dijital hız göstergesi (Driving School - Faceliftlerde açılmaz)",
     "Amerikan parklar",
     "Selektör yapınca sis farlarının da yanması",
@@ -45,11 +45,11 @@ const a4 = () => {
   ];
   return (
     <>
-      <Breadcrumb pageName="A4" description="A4 Gizli özellik listesi" />
+      <Breadcrumb pageName="A5" description="A5 Gizli özellik listesi" />
       <div className="mb-20  flex">
         <Image
-          src="/images/cars/audi/a4.jpeg"
-          alt="a4"
+          src="/images/cars/audi/a58t.jpeg"
+          alt="a5"
           width={500}
           height={500}
         />
@@ -62,4 +62,4 @@ const a4 = () => {
   );
 };
 
-export default a4;
+export default a5;

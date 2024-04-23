@@ -4,7 +4,7 @@ import Image from "next/image";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-4 md:py-20 lg:py-28">
+      <section id="features" className="py-8">
         <div className="container">
           {/* <SectionTitle
             title="Main Features"

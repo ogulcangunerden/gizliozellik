@@ -32,7 +32,7 @@ const Gallery = ({ images }) => {
             height={600}
           />
           <button
-            className="absolute left-0 top-1/2 -translate-y-1/2 transform rounded-full  px-4 py-10 sm:py-10"
+            className="absolute left-0 top-1/2 -translate-y-1/2 transform rounded-full px-4 py-10 sm:py-10"
             onClick={handlePrevButtonClick}
           >
             {"<"}

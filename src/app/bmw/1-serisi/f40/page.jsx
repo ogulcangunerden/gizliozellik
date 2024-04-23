@@ -51,7 +51,7 @@ const f40 = () => {
         pageName="1 Serisi -  F40"
         description="F40 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

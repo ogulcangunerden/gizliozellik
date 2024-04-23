@@ -1,6 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import List from "@/components/List";
-import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
@@ -53,7 +52,7 @@ const f10 = () => {
         pageName="5 Serisi -  F10"
         description="F10 Gizli özellik listesi"
       />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
       </div>
       <List items={items} />

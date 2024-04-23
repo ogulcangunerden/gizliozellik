@@ -17,7 +17,7 @@ const FixedLogo = () => {
         <img
           src="/images/logo/WhatsApp_icon.png"
           alt="WP-LOGO"
-          className="h-24 w-24 "
+          className="h-16 w-16 md:h-24 md:w-24"
         />
       </a>
     </div>

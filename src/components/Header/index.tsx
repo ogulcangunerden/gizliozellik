@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
@@ -12,19 +12,8 @@ const Header = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  const [sticky, setSticky] = useState(false);
-  const handleStickyNavbar = () => {
-    if (window.scrollY >= 80) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  });
-
   const [openIndex, setOpenIndex] = useState(-1);
+
   const handleSubmenu = (index) => {
     if (openIndex === index) {
       setOpenIndex(-1);
@@ -38,34 +27,19 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header left-0 top-0 z-40 flex w-full items-center ${
-          sticky
-            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
-            : "absolute bg-transparent"
-        }`}
+        className={`header fixed left-0 top-0 z-[9999] flex w-full items-center bg-white !bg-opacity-50 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark`}
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
-              <div
-                className={`header-logo block w-full ${
-                  sticky ? "py-4 lg:py-2" : "py-8"
-                } `}
-              >
+              <div className={`header-logo block w-full py-4 lg:py-2`}>
                 <Link href="/">
                   <Image
                     src="/images/logo/BMW-M-Logo.png"
                     alt="logo"
                     width={140}
                     height={30}
-                    className="w-full dark:hidden"
-                  />
-                  <Image
-                    src="/images/logo/BMW-M-Logo.png"
-                    alt="logo"
-                    width={140}
-                    height={30}
-                    className="hidden w-full dark:block"
+                    className="w-full"
                   />
                 </Link>
               </div>
@@ -143,6 +117,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
+                                  onClick={() => setNavbarOpen(false)}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >
                                   {submenuItem.title}

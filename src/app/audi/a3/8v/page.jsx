@@ -64,7 +64,7 @@ const a3 = () => {
   return (
     <>
       <Breadcrumb pageName="A3" description="A3 Gizli özellik listesi" />
-      <div className="mb-20 ml-14 flex">
+      <div className="mb-20  flex">
         <Image
           src="/images/cars/audi/a3.jpeg"
           alt="a3"
