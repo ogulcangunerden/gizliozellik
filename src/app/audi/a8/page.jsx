@@ -11,16 +11,22 @@ export const metadata = {
 const a8 = () => {
   const images = [
     {
-      src: "/images/cars/audi/a7.jpeg",
-      alt: "A7",
-      description: "A7  (2010 - 2018)",
-      href: "/audi/a7/c7",
+      src: "/images/cars/audi/a8d4.jpeg",
+      alt: "A8 D4, 4H GİZLİ ÖZELLİK",
+      description: "A8  (2010 - 2013)",
+      href: "/audi/a8/d4",
     },
     {
-      src: "/images/cars/audi/a7c48.jpeg",
-      alt: "A7",
-      description: "A7  (2018 - 2024)",
-      href: "/audi/a7/c8",
+      src: "/images/cars/audi/a8fl.jpeg",
+      alt: "A8 D4, 4H MAKYAJLI GİZLİ ÖZELLİK",
+      description: "A8  (2013 - 2018)",
+      href: "/audi/a8/4h",
+    },
+    {
+      src: "/images/cars/audi/a8d5.jpeg",
+      alt: "A8 D5 GİZLİ ÖZELLİK",
+      description: "A8  (2017-2022)",
+      href: "/audi/a8/d5",
     },
   ];
 

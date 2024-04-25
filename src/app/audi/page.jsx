@@ -12,7 +12,7 @@ const audi = () => {
   const images = [
     {
       src: "/images/cars/audi/a1.jpeg",
-      alt: "A1",
+      alt: "Audi A1 Gizli Özellik",
       description: "A1",
       href: "/audi/a1",
     },
@@ -71,7 +71,7 @@ const audi = () => {
       href: "/audi/q5",
     },
     {
-      src: "/images/cars/audi/q7.jpeg",
+      src: "/images/cars/audi/q74m.jpeg",
       alt: "Q7",
       description: "Q7",
       href: "/audi/q7",
