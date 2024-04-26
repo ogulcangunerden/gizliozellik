@@ -14,10 +14,12 @@ const FixedLogo = () => {
         href="https://api.whatsapp.com/send?phone=905306002800"
         target="_blank"
       >
-        <img
+        <Image
           src="/images/logo/WhatsApp_icon.png"
           alt="WhatsApp Logo"
           className="h-16 w-16 md:h-24 md:w-24"
+          width={500}
+          height={500}
         />
       </a>
     </div>

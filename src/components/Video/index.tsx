@@ -14,7 +14,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="Örnek Çalışmalarımız"
-          paragraph="G20"
+          paragraph="G20 Gizli Özellik Aktivasyonu"
           center
           mb="80px"
         />

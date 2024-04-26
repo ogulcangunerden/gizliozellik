@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
@@ -18,7 +20,7 @@ const Contact = () => {
                       href="https://api.whatsapp.com/send?phone=905306002800"
                       target="_blank"
                     >
-                      <img
+                      <Image
                         src="/images/logo/WhatsAppButtonGreenLarge.png"
                         alt="Wp Button"
                         width={400}
@@ -32,7 +34,7 @@ const Contact = () => {
                       href="https://www.instagram.com/buyukcekmecegizliozellik/"
                       target="_blank"
                     >
-                      <img
+                      <Image
                         src="/images/logo/instagram1.webp"
                         alt="insta logo"
                         width={400}
