@@ -5,13 +5,13 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "6 Serisi",
-  description: "6 Serisi",
+  description: "6 Serisi gizli özellik",
 };
 
 const Series6 = () => {
   const images = [
     {
-      src: "/images/cars/f13.jpeg",
+      src: "/images/cars/f13.webp",
       alt: "F12 - F13",
       description: "F12 - F13 (2011 - )",
       href: "/bmw/6-serisi/f13",

@@ -5,82 +5,76 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "Audi",
-  description: "Audi",
+  description: "Audi gizli özellik",
 };
 
 const audi = () => {
   const images = [
     {
-      src: "/images/cars/audi/a1.jpeg",
+      src: "/images/cars/audi/a1.webp",
       alt: "Audi A1 Gizli Özellik",
       description: "A1",
       href: "/audi/a1",
     },
     {
-      src: "/images/cars/audi/a3.jpeg",
+      src: "/images/cars/audi/a3.webp",
       alt: "A3",
       description: "A3",
       href: "/audi/a3",
     },
     {
-      src: "/images/cars/audi/a4.jpeg",
+      src: "/images/cars/audi/a4.webp",
       alt: "A4",
       description: "A4",
       href: "/audi/a4",
     },
     {
-      src: "/images/cars/audi/a5.jpeg",
+      src: "/images/cars/audi/a5.webp",
       alt: "A5",
       description: "A5",
       href: "/audi/a5",
     },
     {
-      src: "/images/cars/audi/a6.jpeg",
+      src: "/images/cars/audi/a6.webp",
       alt: "A6",
       description: "A6",
       href: "/audi/a6",
     },
     {
-      src: "/images/cars/audi/a7.jpeg",
+      src: "/images/cars/audi/a7.webp",
       alt: "A7",
       description: "A7",
       href: "/audi/a7",
     },
     {
-      src: "/images/cars/audi/a8.jpeg",
+      src: "/images/cars/audi/a8.webp",
       alt: "A8",
       description: "A8",
       href: "/audi/a8",
     },
     {
-      src: "/images/cars/audi/q2.jpeg",
+      src: "/images/cars/audi/q2.webp",
       alt: "Q2",
       description: "Q2",
       href: "/audi/q2",
     },
     {
-      src: "/images/cars/audi/q3.jpeg",
+      src: "/images/cars/audi/q3.webp",
       alt: "Q3",
       description: "Q3",
       href: "/audi/q3",
     },
     {
-      src: "/images/cars/audi/q55.jpeg",
+      src: "/images/cars/audi/q55.webp",
       alt: "Q5",
       description: "Q5",
       href: "/audi/q5",
     },
     {
-      src: "/images/cars/audi/q74m.jpeg",
+      src: "/images/cars/audi/q74m.webp",
       alt: "Q7",
       description: "Q7",
       href: "/audi/q7",
-    },
-    {
-      src: "/images/cars/audi/tt.jpeg",
-      alt: "TT",
-      description: "TT",
-      href: "/audi/tt",
     },
   ];
 

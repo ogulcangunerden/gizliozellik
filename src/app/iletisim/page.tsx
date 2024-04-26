@@ -6,7 +6,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "İletişim",
   description: "İletişim",
-  // other metadata
 };
 
 const ContactPage = () => {

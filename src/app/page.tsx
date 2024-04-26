@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   keywords:
     "gizli özellik, f30 gizli özellik, vag gizli özellik, g20 gizli özellik",
   robots: "index, follow",
-  // other metadata
 };
 
 export default function Home() {

@@ -11,13 +11,13 @@ export const metadata = {
 const Series5 = () => {
   const images = [
     {
-      src: "/images/cars/f10.jpeg",
+      src: "/images/cars/f10.webp",
       alt: "F10 - F11",
       description: "F10 - F11 (2010 - 2016)",
       href: "/bmw/5-serisi/f10",
     },
     {
-      src: "/images/cars/g30.jpeg",
+      src: "/images/cars/g30.webp",
       alt: "G30 - G31",
       description: "G30 - G31 (2017 - 2024)",
       href: "/bmw/5-serisi/g30",

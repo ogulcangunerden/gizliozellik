@@ -11,7 +11,7 @@ export const metadata = {
 const q7 = () => {
   const images = [
     {
-      src: "/images/cars/audi/q74m.jpeg",
+      src: "/images/cars/audi/q74m.webp",
       alt: "Q7 gizli özellik",
       description: "Q7  (2015 - 2019)",
       href: "/audi/q7/4m",

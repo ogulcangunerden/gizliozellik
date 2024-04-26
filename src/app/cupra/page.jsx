@@ -6,7 +6,6 @@ import Image from "next/image";
 export const metadata = {
   title: "Büyükçekmece Gizli Özellik",
   description: "Büyükçekmece Gizli Özellik",
-  // other metadata
 };
 
 const Blog = () => {
@@ -18,7 +17,7 @@ const Blog = () => {
       />
       <div className="flex items-center justify-center text-center">
         <Image
-          src="/images/cars/formentor.jpeg"
+          src="/images/cars/formentor.webp"
           width={700}
           height={600}
           alt="Sl63"

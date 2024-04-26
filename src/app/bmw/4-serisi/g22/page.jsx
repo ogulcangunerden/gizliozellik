@@ -5,7 +5,7 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title: "G22",
-  description: "G22",
+  description: "G22 gizli özellik",
 };
 
 const G22 = () => {

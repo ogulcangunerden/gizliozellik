@@ -5,13 +5,13 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "8 Serisi",
-  description: "8 Serisi",
+  description: "8 Serisi gizli özellik",
 };
 
 const Series8 = () => {
   const images = [
     {
-      src: "/images/cars/g15.jpeg",
+      src: "/images/cars/g15.webp",
       alt: "G14 - G15 - G16",
       description: "G14 - G15 - G16 (2018 - )",
       href: "/bmw/8-serisi/g15",

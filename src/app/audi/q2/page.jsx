@@ -11,7 +11,7 @@ export const metadata = {
 const q2 = () => {
   const images = [
     {
-      src: "/images/cars/audi/q2.jpeg",
+      src: "/images/cars/audi/q2.webp",
       alt: "Q2 gizli özellik",
       description: "Q2  (2016+)",
       href: "/audi/q2/my1",

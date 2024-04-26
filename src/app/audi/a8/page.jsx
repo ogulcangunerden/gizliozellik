@@ -5,25 +5,25 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "A8",
-  description: "A8",
+  description: "A8 gizli özellik",
 };
 
 const a8 = () => {
   const images = [
     {
-      src: "/images/cars/audi/a8d4.jpeg",
+      src: "/images/cars/audi/a8d4.webp",
       alt: "A8 D4, 4H GİZLİ ÖZELLİK",
       description: "A8  (2010 - 2013)",
       href: "/audi/a8/d4",
     },
     {
-      src: "/images/cars/audi/a8fl.jpeg",
+      src: "/images/cars/audi/a8fl.webp",
       alt: "A8 D4, 4H MAKYAJLI GİZLİ ÖZELLİK",
       description: "A8  (2013 - 2018)",
       href: "/audi/a8/4h",
     },
     {
-      src: "/images/cars/audi/a8d5.jpeg",
+      src: "/images/cars/audi/a8d5.webp",
       alt: "A8 D5 GİZLİ ÖZELLİK",
       description: "A8  (2017-2022)",
       href: "/audi/a8/d5",

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: "A8",
-  description: "A8",
+  description: "A8 gizli özellik",
 };
 
 const a8 = () => {
@@ -33,7 +33,7 @@ const a8 = () => {
       <Breadcrumb pageName="A8" description="A8 Gizli özellik listesi" />
       <div className="mb-20  flex">
         <Image
-          src="/images/cars/audi/a8fl.jpeg"
+          src="/images/cars/audi/a8fl.webp"
           alt="a8"
           width={500}
           height={500}

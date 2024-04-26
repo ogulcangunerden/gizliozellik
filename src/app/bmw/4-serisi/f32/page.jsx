@@ -5,7 +5,7 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title: "F32",
-  description: "F32",
+  description: "F32 gizli özellik",
 };
 
 const f32 = () => {

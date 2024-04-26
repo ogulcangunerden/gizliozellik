@@ -11,13 +11,13 @@ export const metadata = {
 const q5 = () => {
   const images = [
     {
-      src: "/images/cars/audi/q5.jpeg",
+      src: "/images/cars/audi/q5.webp",
       alt: "Q5 gizli özellik",
       description: "Q5  (2007 - 2016)",
       href: "/audi/q5/my1",
     },
     {
-      src: "/images/cars/audi/q5my2.jpeg",
+      src: "/images/cars/audi/q5my2.webp",
       alt: "Q5 gizli özellik",
       description: "Q5  (2021 - 2024)",
       href: "/audi/q5/my2",

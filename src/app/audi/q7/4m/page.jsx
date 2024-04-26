@@ -41,7 +41,7 @@ const q7 = () => {
       <Breadcrumb pageName="Q7" description="Q7 Gizli özellik listesi" />
       <div className="mb-20  flex">
         <Image
-          src="/images/cars/audi/q74m.jpeg"
+          src="/images/cars/audi/q74m.webp"
           alt="q5 gizli özellik"
           width={500}
           height={500}

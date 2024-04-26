@@ -5,19 +5,19 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "A5",
-  description: "A5",
+  description: "A5 gizli özellik",
 };
 
 const a5 = () => {
   const images = [
     {
-      src: "/images/cars/audi/a58t.jpeg",
+      src: "/images/cars/audi/a58t.webp",
       alt: "A5",
       description: "A5  (2007 - 2016)",
       href: "/audi/a5/8t",
     },
     {
-      src: "/images/cars/audi/a5.jpeg",
+      src: "/images/cars/audi/a5.webp",
       alt: "A5",
       description: "A5  (2016 - 2019)",
       href: "/audi/a5/f5",

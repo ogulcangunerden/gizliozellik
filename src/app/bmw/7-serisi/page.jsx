@@ -5,19 +5,19 @@ import { Metadata } from "next";
 
 export const metadata = {
   title: "7 Serisi",
-  description: "7 Serisi",
+  description: "7 Serisi gizli özellik",
 };
 
 const Series7 = () => {
   const images = [
     {
-      src: "/images/cars/f01.jpeg",
+      src: "/images/cars/f01.webp",
       alt: "F01 - F02",
       description: "F01 - F02 (2008 - 2015)",
       href: "/bmw/7-serisi/f01",
     },
     {
-      src: "/images/cars/g11.jpeg",
+      src: "/images/cars/g11.webp",
       alt: "G11",
       description: "G11 (2015 - 2022)",
       href: "/bmw/7-serisi/g11",
