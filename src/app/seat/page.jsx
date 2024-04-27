@@ -18,10 +18,10 @@ const seat = () => {
       />
       <div className="flex items-center justify-center text-center">
         <Image
-          src="/images/cars/leon.jpeg"
+          src="/images/cars/leon.webp"
           width={700}
           height={600}
-          alt="Sl63"
+          alt="seat leon"
         />
       </div>
     </>

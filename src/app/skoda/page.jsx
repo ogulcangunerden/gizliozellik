@@ -17,7 +17,7 @@ const skoda = () => {
       />
       <div className="flex items-center justify-center text-center">
         <Image
-          src="/images/cars/superb.jpeg"
+          src="/images/cars/superb.webp"
           width={700}
           height={600}
           alt="Sl63"

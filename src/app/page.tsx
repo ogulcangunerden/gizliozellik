@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Hero from "@/components/Hero";

@@ -17,10 +17,10 @@ const volkswagen = () => {
       />
       <div className="flex items-center justify-center text-center">
         <Image
-          src="/images/cars/golf.jpeg"
+          src="/images/cars/golf.webp"
           width={700}
           height={600}
-          alt="Sl63"
+          alt="volkswagen golf"
         />
       </div>
     </>
