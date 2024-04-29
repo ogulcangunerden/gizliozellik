@@ -20,7 +20,7 @@ const Blog = () => {
           src="/images/cars/formentor.webp"
           width={700}
           height={600}
-          alt="Sl63"
+          alt="Cupra Formentor"
         />
       </div>
     </>

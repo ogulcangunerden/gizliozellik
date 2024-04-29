@@ -20,7 +20,7 @@ const skoda = () => {
           src="/images/cars/superb.webp"
           width={700}
           height={600}
-          alt="Sl63"
+          alt="Skoda Superb"
         />
       </div>
     </>

@@ -53,9 +53,9 @@ const f01 = () => {
         pageName="7 Serisi -  F01"
         description="F01 Gizli özellik listesi"
       />
-      <div className="mb-20  flex">
+      {/* <div className="mb-20  flex">
         <Gallery images={images} />
-      </div>
+      </div> */}
       <List items={items} />
     </>
   );

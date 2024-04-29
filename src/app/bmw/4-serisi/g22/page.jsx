@@ -9,19 +9,19 @@ export const metadata = {
 };
 
 const G22 = () => {
-  const images = [
-    "/images/cars/x3/x311.jpg",
-    "/images/cars/x3/x31.jpg",
-    "/images/cars/x3/x32.jpg",
-    "/images/cars/x3/x33.jpg",
-    "/images/cars/x3/x34.jpg",
-    "/images/cars/x3/x35.jpg",
-    "/images/cars/x3/x36.jpg",
-    "/images/cars/x3/x37.jpg",
-    "/images/cars/x3/x38.jpg",
-    "/images/cars/x3/x39.jpg",
-    "/images/cars/x3/x310.jpg",
-  ];
+  // const images = [
+  //   "/images/cars/x3/x311.jpg",
+  //   "/images/cars/x3/x31.jpg",
+  //   "/images/cars/x3/x32.jpg",
+  //   "/images/cars/x3/x33.jpg",
+  //   "/images/cars/x3/x34.jpg",
+  //   "/images/cars/x3/x35.jpg",
+  //   "/images/cars/x3/x36.jpg",
+  //   "/images/cars/x3/x37.jpg",
+  //   "/images/cars/x3/x38.jpg",
+  //   "/images/cars/x3/x39.jpg",
+  //   "/images/cars/x3/x310.jpg",
+  // ];
   const items = [
     "Sport plus modunun aktif edilmesi. (Gaz tepkisinde ciddi iyileştirme yapar.)",
     "Comfort plus modunun aktif edilmesi. (Şanzıman ve Süspansiyon konforunda ciddi iyileştirme yapar.)",
@@ -50,9 +50,9 @@ const G22 = () => {
         pageName="4 Serisi -  G22"
         description="G22 Gizli özellik listesi"
       />
-      <div className="mb-20  flex">
+      {/* <div className="mb-20  flex">
         <Gallery images={images} />
-      </div>
+      </div> */}
       <List items={items} />
     </>
   );

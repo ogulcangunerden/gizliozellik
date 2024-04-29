@@ -21,7 +21,7 @@ const mercedes = () => {
           src="/images/cars/sl.webp"
           width={700}
           height={600}
-          alt="Sl63"
+          alt="Mercedes Sl63"
         />
       </div>
     </>

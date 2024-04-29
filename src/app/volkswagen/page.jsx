@@ -20,7 +20,7 @@ const volkswagen = () => {
           src="/images/cars/golf.webp"
           width={700}
           height={600}
-          alt="volkswagen golf"
+          alt="Volkswagen Golf"
         />
       </div>
     </>

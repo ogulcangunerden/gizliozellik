@@ -9,10 +9,10 @@ export const metadata = {
 };
 
 const f20 = () => {
-  const images = [
-    "/images/cars/f-seri/amerikanpark11.jpg",
-    "/images/cars/f-seri/amerikanpark111.jpg",
-  ];
+  // const images = [
+  //   "/images/cars/f-seri/amerikanpark11.jpg",
+  //   "/images/cars/f-seri/amerikanpark111.jpg",
+  // ];
   const items = [
     "Amerikan parkların aktif edilmesi. (İstenirse yalnızca ayna veya yalnızca farlar olarak ayarlanabilir)",
     "Angel parlaklıklarının arttırılması",
@@ -45,9 +45,9 @@ const f20 = () => {
         pageName="1 Serisi -  F20"
         description="F20 Gizli özellik listesi"
       />
-      <div className="mb-20  flex">
+      {/* <div className="mb-20  flex">
         <Gallery images={images} />
-      </div>
+      </div> */}
       <List items={items} />
     </>
   );
