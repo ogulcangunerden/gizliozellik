@@ -40,7 +40,7 @@ const q5 = () => {
   return (
     <>
       <Breadcrumb pageName="Q5" description="Q5 Gizli özellik listesi" />
-      <div className="mb-20  flex">
+      <div className="mb-20  flex justify-center">
         <Image
           src="/images/cars/audi/q5my2.webp"
           alt="q5 gizli özellik"

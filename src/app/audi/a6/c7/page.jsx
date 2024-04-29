@@ -35,7 +35,7 @@ const a6 = () => {
   return (
     <>
       <Breadcrumb pageName="A6" description="A6 Gizli özellik listesi" />
-      <div className="mb-20  flex">
+      <div className="mb-20  flex justify-center">
         <Image
           src="/images/cars/audi/a6c7.webp"
           alt="a6"

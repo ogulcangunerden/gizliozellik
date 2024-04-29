@@ -33,7 +33,7 @@ const a1 = () => {
   return (
     <>
       <Breadcrumb pageName="A1" description="A1 Gizli özellik listesi" />
-      <div className="mb-20  flex">
+      <div className="mb-20  flex justify-center">
         <Image
           src="/images/cars/audi/a1.webp"
           alt="a1"

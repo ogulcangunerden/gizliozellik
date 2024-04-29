@@ -46,7 +46,7 @@ const a4 = () => {
   return (
     <>
       <Breadcrumb pageName="A4" description="A4 Gizli özellik listesi" />
-      <div className="mb-20  flex">
+      <div className="mb-20  flex justify-center">
         <Image
           src="/images/cars/audi/a4.webp"
           alt="a4"
