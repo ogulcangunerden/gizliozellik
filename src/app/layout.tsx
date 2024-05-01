@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import FixedLogo from "@/components/FixedLogo/FixedLogo";
 import { Inter } from "next/font/google";
+import { PreloadResources } from "./preload-resources";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
@@ -11,6 +12,8 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
+
+PreloadResources();
 
 export default function RootLayout({
   children,
