@@ -12,8 +12,8 @@ const Footer = () => {
               src="/images/logo/BMW-M-Logo.png"
               alt="logo"
               className="w-full"
-              width={140}
-              height={30}
+              width={80}
+              height={20}
             />
           </Link>
           <p className="mt-4 text-center text-base leading-relaxed text-[#0363AF] dark:text-[#E5E5E5]">

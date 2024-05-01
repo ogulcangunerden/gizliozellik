@@ -34,17 +34,15 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           src={imageLight}
           alt={name}
           fill
-          className="hidden dark:block"
-          layout="fill"
-          objectFit="contain"
+          className="hidden object-contain dark:block"
+          quality={75}
         />
         <Image
           src={image}
           alt={name}
           fill
-          className="block dark:hidden"
-          layout="fill"
-          objectFit="contain"
+          className="block object-contain dark:hidden"
+          quality={75}
         />
       </a>
     </div>

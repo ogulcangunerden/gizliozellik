@@ -10,7 +10,7 @@ export const metadata = {
 
 const skoda = () => {
   return (
-    <>
+    <div style={{ marginBottom: 32 }}>
       <Breadcrumb
         pageName="Skoda"
         description="Skoda gizli özellikleri için lütfen Whatsapp üzerinden iletişime geçiniz."
@@ -23,7 +23,7 @@ const skoda = () => {
           alt="Skoda Superb"
         />
       </div>
-    </>
+    </div>
   );
 };
 

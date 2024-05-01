@@ -25,8 +25,13 @@ const Video = () => {
               className="mx-auto max-w-[770px] overflow-hidden rounded-md"
               data-wow-delay=".15s"
             >
-              <div className="relative aspect-[77/50] items-center justify-center">
-                <Image src="/images/cars/m340i.png" alt="video image" fill />
+              <div className="mx-center relative mx-auto h-72 w-screen items-center justify-center md:w-96 lg:h-[512px] lg:w-[720px]">
+                <Image
+                  src="/images/cars/m340i.png"
+                  alt="video image"
+                  fill
+                  quality={75}
+                />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
