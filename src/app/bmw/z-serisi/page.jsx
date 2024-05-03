@@ -13,7 +13,7 @@ const SeriesZ = () => {
     {
       src: "/images/cars/g29.webp",
       alt: "G29",
-      description: "G29  (2018 - )",
+      description: "G29 Z4 (2018 - )",
       href: "/bmw/z-serisi/g29",
     },
   ];

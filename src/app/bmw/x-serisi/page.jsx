@@ -12,8 +12,8 @@ const SeriesX = () => {
   const images = [
     {
       src: "/images/cars/g01.webp",
-      alt: "G01",
-      description: "G01  (2018 - )",
+      alt: "G01 X3",
+      description: "G01 X3  (2018 - )",
       href: "/bmw/x-serisi/g01",
     },
   ];

@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "G29",
-  description: "G29 gizli özellik",
+  title: "G29 Z4",
+  description: "G29 Z4 gizli özellik",
 };
 
 const g29 = () => {
@@ -46,7 +46,7 @@ const g29 = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Z Serisi -  G29"
+        pageName="Z Serisi -  G29 Z4"
         description="G29 Gizli özellik listesi"
       />
       <div className="mb-20  flex">

@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "G01",
-  description: "G01 gizli özellik",
+  title: "G01 X3",
+  description: "G01 X3 gizli özellik",
 };
 
 const g01 = () => {
