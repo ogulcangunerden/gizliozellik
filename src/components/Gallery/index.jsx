@@ -22,7 +22,7 @@ const Gallery = ({ images }) => {
   };
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center justify-center text-center">
       <div className="relative w-full max-w-xl">
         <div className="relative">
           <Image
@@ -45,7 +45,7 @@ const Gallery = ({ images }) => {
           </button>
         </div>
       </div>
-      <div className="mt-4 flex flex-wrap justify-center">
+      <div className="mt-4 flex flex-wrap justify-center md:ml-10  lg:ml-24">
         {images.map((image, index) => (
           <div key={index} className="mb-2 mr-2 cursor-pointer">
             <Image
