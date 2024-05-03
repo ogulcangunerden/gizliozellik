@@ -22,7 +22,25 @@ export default function Home() {
       <Brands />
 
       {/* <Features /> */}
-      <Video />
+      <Video
+        title="Örnek Çalışmalarımız"
+        paragraph="G20 Gizli Özellik Aktivasyonu"
+        imageUrl="/images/cars/m340i.webp"
+        videoId="MmfewytOljI"
+      />
+
+      <Video
+        title=""
+        paragraph="F44 Gizli Özellik Aktivasyonu"
+        imageUrl="/images/cars/f44.webp"
+        videoId="w3_H0MwHPFg"
+      />
+      <Video
+        title=""
+        paragraph="G20 Stage 1 280 Hp Tune ve Kadran Limitörü Kaldırma"
+        imageUrl="/images/cars/g20.webp"
+        videoId="ouRRS_t-h8w"
+      />
     </>
   );
 }

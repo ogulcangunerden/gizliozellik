@@ -1,37 +1,22 @@
 "use client";
-
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-
 import ModalVideo from "react-modal-video";
 
-const Video = () => {
+const Video = ({ title, paragraph, imageUrl, videoId }) => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-8">
+    <section className="relative z-10  border-t-2 py-8">
       <div className="container">
-        <SectionTitle
-          title="Örnek Çalışmalarımız"
-          paragraph="G20 Gizli Özellik Aktivasyonu"
-          center
-          mb="80px"
-        />
+        <SectionTitle title={title} paragraph={paragraph} center mb="80px" />
 
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div
-              className="mx-auto max-w-[770px] overflow-hidden rounded-md"
-              data-wow-delay=".15s"
-            >
+            <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
               <div className="mx-center relative mx-auto h-72 w-screen items-center justify-center md:w-96 lg:h-[512px] lg:w-[720px]">
-                <Image
-                  src="/images/cars/m340i.png"
-                  alt="video image"
-                  fill
-                  quality={75}
-                />
+                <Image src={imageUrl} alt="video image" fill quality={75} />
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">
                   <button
                     aria-label="video play button"
@@ -59,7 +44,7 @@ const Video = () => {
         autoplay={true}
         start={true}
         isOpen={isOpen}
-        videoId="MmfewytOljI"
+        videoId={videoId}
         onClose={() => setOpen(false)}
       />
 
