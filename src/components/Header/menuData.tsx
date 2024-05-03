@@ -60,6 +60,18 @@ const menuData: Menu[] = [
         path: "/bmw/8-serisi",
         newTab: false,
       },
+      {
+        id: 4812312,
+        title: "Z Serisi",
+        path: "/bmw/z-serisi",
+        newTab: false,
+      },
+      {
+        id: 48,
+        title: "X Serisi",
+        path: "/bmw/x-serisi",
+        newTab: false,
+      },
     ],
   },
   {

@@ -4,11 +4,11 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "G30",
-  description: "G30 gizli özellik",
+  title: "G01",
+  description: "G01 gizli özellik",
 };
 
-const G30 = () => {
+const g01 = () => {
   const images = [
     "/images/carousel/m4.webp",
     "/images/carousel/alpina.webp",
@@ -27,7 +27,7 @@ const G30 = () => {
     "Comfort plus modunun aktif edilmesi. (Şanzıman ve Süspansiyon konforunda ciddi iyileştirme yapar.)",
     "X menüsünün etkinleştirilmesi (Pusula, eğim ve rakımı gösterir.)",
     "Sürüş esnasında video izleme (HU_MGU gerekli)",
-    "Kadran temasının isteğe bağlı M5, M540i veya Alpina olarak değiştirilmesi",
+    "Kadran temasının isteğe bağlı X3M, orjinal kadranın 330 son hız versiyonu veya Alpina olarak değiştirilmesi",
     "Bowers & Wilkins ses ön ayarlarının aktif hale getirilmesi",
     "Lastik basınç göstergesinin yanında lastik sıcaklıklarının da gözükmesi",
     "M Setup menünün gösterilmesi (Tamamen görsel olarak gözükür işlevi yoktur.)",
@@ -37,8 +37,6 @@ const G30 = () => {
     "Emniyet kemeri ikazlarının devre dışı bırakılması",
     "Start-Stop sisteminin hafızalı olarak kodlanması (Son ayarınızı hatırlar)",
     "Spor göstergenin, gelişmiş spor göstergeye dönüştürülmesi (G-metre, güç, tork, yağ sıcaklığı, turbo basıncı)",
-    "Analog kadran (yarı hayalet) olan araçlarda dijital hız göstergesinin aktif edilmesi",
-    "Analog kadran (yarı hayalet) olan araçlarda 550i yazısının aktif edilmesi",
     "Aracı ilk çalıştırdığınızdaki sürüş modunun isteğe bağlı olarak ayarlanması (sport+ ,  comfort+, eco vs)",
     "İç ambiyans renklerinde bronz rengin kırmızı renk ile değiştirilmesi",
     "Elektrikli bagaj olan araçlarda kumandadan tek basışta kapanması",
@@ -48,8 +46,8 @@ const G30 = () => {
   return (
     <>
       <Breadcrumb
-        pageName="5 Serisi -  G30"
-        description="G30 Gizli özellik listesi"
+        pageName="X Serisi -  G01"
+        description="G01 Gizli özellik listesi"
       />
       <div className="mb-20  flex">
         <Gallery images={images} />
@@ -59,4 +57,4 @@ const G30 = () => {
   );
 };
 
-export default G30;
+export default g01;

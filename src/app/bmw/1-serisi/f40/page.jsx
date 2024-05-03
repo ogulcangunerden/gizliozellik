@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import List from "@/components/List";
 import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
+import Image from "next/image";
 
 export const metadata = {
   title: "F40",
@@ -9,19 +10,19 @@ export const metadata = {
 };
 
 const f40 = () => {
-  // const images = [
-  //   "/images/cars/x3/x311.jpg",
-  //   "/images/cars/x3/x31.jpg",
-  //   "/images/cars/x3/x32.jpg",
-  //   "/images/cars/x3/x33.jpg",
-  //   "/images/cars/x3/x34.jpg",
-  //   "/images/cars/x3/x35.jpg",
-  //   "/images/cars/x3/x36.jpg",
-  //   "/images/cars/x3/x37.jpg",
-  //   "/images/cars/x3/x38.jpg",
-  //   "/images/cars/x3/x39.jpg",
-  //   "/images/cars/x3/x310.jpg",
-  // ];
+  const images = [
+    "/images/carousel/m4.webp",
+    "/images/carousel/alpina.webp",
+    "/images/carousel/düzm.webp",
+    "/images/carousel/x3m.webp",
+    "/images/carousel/sportplus.webp",
+    "/images/carousel/comfortplus.webp",
+    "/images/carousel/mmenu.webp",
+    "/images/carousel/sporgosterge.webp",
+    "/images/carousel/xview.webp",
+    "/images/carousel/bowers.webp",
+    "/images/carousel/lastikbasinc.webp",
+  ];
   const items = [
     "Sport plus modunun aktif edilmesi. (Gaz tepkisinde ciddi iyileştirme yapar.)",
     "Comfort plus modunun aktif edilmesi. (Şanzıman ve Süspansiyon konforunda ciddi iyileştirme yapar.)",
@@ -51,9 +52,9 @@ const f40 = () => {
         pageName="1 Serisi -  F40"
         description="F40 Gizli özellik listesi"
       />
-      {/* <div className="mb-20  flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
-      </div> */}
+      </div>
       <List items={items} />
     </>
   );
