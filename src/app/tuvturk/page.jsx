@@ -17,7 +17,7 @@ const skoda = () => {
       />
       <div className="ml-10 flex items-center justify-center text-center">
         <Image
-          src="/images/tuvturk.png"
+          src="/images/tuvturk.webp"
           width={700}
           height={600}
           alt="Gizli Özellik Kapatma"

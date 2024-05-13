@@ -17,7 +17,7 @@ const Series6 = () => {
       href: "/bmw/6-serisi/f13",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",

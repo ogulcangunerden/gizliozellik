@@ -23,7 +23,7 @@ const Series4 = () => {
       href: "/bmw/4-serisi/g22",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",

@@ -23,7 +23,7 @@ const a5 = () => {
       href: "/audi/a5/f5",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",

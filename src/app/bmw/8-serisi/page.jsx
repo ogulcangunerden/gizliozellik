@@ -17,7 +17,7 @@ const Series8 = () => {
       href: "/bmw/8-serisi/g15",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",

@@ -17,7 +17,7 @@ const SeriesZ = () => {
       href: "/bmw/z-serisi/g29",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",

@@ -23,7 +23,7 @@ const Series2 = () => {
       href: "/bmw/2-serisi/f44",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",

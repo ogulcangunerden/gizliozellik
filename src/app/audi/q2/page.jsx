@@ -17,7 +17,7 @@ const q2 = () => {
       href: "/audi/q2/my1",
     },
     {
-      src: "/images/tuvturk.png",
+      src: "/images/tuvturk.webp",
       alt: "Tuvturk",
       description: "Gizli Özellik kapatma",
       href: "/tuvturk",
