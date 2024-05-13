@@ -22,6 +22,12 @@ const q3 = () => {
       description: "Q3  (2019+)",
       href: "/audi/q3/f3",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

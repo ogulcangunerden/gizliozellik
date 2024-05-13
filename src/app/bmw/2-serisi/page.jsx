@@ -22,6 +22,12 @@ const Series2 = () => {
       description: "F44 (2019 - )",
       href: "/bmw/2-serisi/f44",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

@@ -16,6 +16,12 @@ const SeriesZ = () => {
       description: "G29 Z4 (2018 - )",
       href: "/bmw/z-serisi/g29",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

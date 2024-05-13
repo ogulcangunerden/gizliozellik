@@ -22,6 +22,12 @@ const Cupra = () => {
       description: "Cupra Formentor (2020 - )",
       href: "/cupra/formentor",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

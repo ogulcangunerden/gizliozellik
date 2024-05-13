@@ -22,6 +22,12 @@ const Series5 = () => {
       description: "G30 - G31 (2017 - 2024)",
       href: "/bmw/5-serisi/g30",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

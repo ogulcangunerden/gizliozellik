@@ -16,6 +16,12 @@ const a3 = () => {
       description: "A3  (2013 - 2020)",
       href: "/audi/a3/8v",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

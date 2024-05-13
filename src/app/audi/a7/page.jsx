@@ -22,6 +22,12 @@ const a7 = () => {
       description: "A7  (2018 - 2024)",
       href: "/audi/a7/c8",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

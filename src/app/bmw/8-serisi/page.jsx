@@ -16,6 +16,12 @@ const Series8 = () => {
       description: "G14 - G15 - G16 (2018 - )",
       href: "/bmw/8-serisi/g15",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

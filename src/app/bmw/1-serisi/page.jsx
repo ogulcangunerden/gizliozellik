@@ -22,6 +22,12 @@ const Series1 = () => {
       description: "F40 (2019 - )",
       href: "/bmw/1-serisi/f40",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

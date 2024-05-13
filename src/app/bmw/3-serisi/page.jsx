@@ -22,6 +22,12 @@ const Series3 = () => {
       description: "G20 - G21 (2019 - )",
       href: "/bmw/3-serisi/g20",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

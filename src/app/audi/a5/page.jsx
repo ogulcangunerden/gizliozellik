@@ -22,6 +22,12 @@ const a5 = () => {
       description: "A5  (2016 - 2019)",
       href: "/audi/a5/f5",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

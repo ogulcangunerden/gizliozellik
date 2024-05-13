@@ -16,6 +16,12 @@ const a1 = () => {
       description: "A1  (2010 - 2018)",
       href: "/audi/a1/8x",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

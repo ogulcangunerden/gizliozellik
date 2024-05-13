@@ -22,6 +22,12 @@ const q5 = () => {
       description: "Q5  (2021 - 2024)",
       href: "/audi/q5/my2",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

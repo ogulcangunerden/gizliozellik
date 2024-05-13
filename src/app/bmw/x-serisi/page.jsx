@@ -16,6 +16,12 @@ const SeriesX = () => {
       description: "G01 X3  (2018 - )",
       href: "/bmw/x-serisi/g01",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

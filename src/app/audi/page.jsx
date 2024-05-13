@@ -76,6 +76,12 @@ const audi = () => {
       description: "Q7",
       href: "/audi/q7",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

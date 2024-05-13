@@ -16,6 +16,12 @@ const Series6 = () => {
       description: "F12 - F13 (2011 - )",
       href: "/bmw/6-serisi/f13",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

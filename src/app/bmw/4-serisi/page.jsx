@@ -22,6 +22,12 @@ const Series4 = () => {
       description: "G22 - G23 - G26 (2020 - )",
       href: "/bmw/4-serisi/g22",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

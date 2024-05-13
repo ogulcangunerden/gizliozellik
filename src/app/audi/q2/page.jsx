@@ -16,6 +16,12 @@ const q2 = () => {
       description: "Q2  (2016+)",
       href: "/audi/q2/my1",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

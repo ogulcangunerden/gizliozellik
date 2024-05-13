@@ -28,6 +28,12 @@ const a6 = () => {
       description: "A6  (2018+)",
       href: "/audi/a6/c8",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

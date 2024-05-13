@@ -16,6 +16,12 @@ const q7 = () => {
       description: "Q7  (2015 - 2019)",
       href: "/audi/q7/4m",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

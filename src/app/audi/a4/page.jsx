@@ -22,6 +22,12 @@ const a4 = () => {
       description: "A4  (2017 - 2019)",
       href: "/audi/a4/b9",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (

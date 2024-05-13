@@ -22,6 +22,12 @@ const Series7 = () => {
       description: "G11 (2015 - 2022)",
       href: "/bmw/7-serisi/g11",
     },
+    {
+      src: "/images/tuvturk.png",
+      alt: "Tuvturk",
+      description: "Gizli Özellik kapatma",
+      href: "/tuvturk",
+    },
   ];
 
   return (
