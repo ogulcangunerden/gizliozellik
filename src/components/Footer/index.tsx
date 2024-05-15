@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid place-items-center">
           <Link href="/" className="inline-block">
             <Image
-              src="/images/logo/BMW-M-Logo.png"
+              src="/images/logo/BMW-M-Logo.webp"
               alt="logo"
               className="w-full"
               width={80}

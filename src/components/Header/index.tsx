@@ -35,7 +35,7 @@ const Header = () => {
               <div className={`header-logo block w-full py-4 lg:py-2`}>
                 <Link href="/">
                   <Image
-                    src="/images/logo/BMW-M-Logo.png"
+                    src="/images/logo/BMW-M-Logo.webp"
                     alt="logo"
                     width={140}
                     height={30}

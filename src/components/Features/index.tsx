@@ -11,7 +11,8 @@ const Features = () => {
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
           /> */}
-          <img src="/images/cars/m4-g.png" alt="" />
+
+          <Image src="/images/cars/m4-g.png" alt="" />
         </div>
       </section>
     </>

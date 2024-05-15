@@ -10,17 +10,7 @@ export const metadata = {
 
 const f30 = () => {
   // const images = [
-  //   "/images/cars/x3/x311.jpg",
-  //   "/images/cars/x3/x31.jpg",
-  //   "/images/cars/x3/x32.jpg",
-  //   "/images/cars/x3/x33.jpg",
-  //   "/images/cars/x3/x34.jpg",
-  //   "/images/cars/x3/x35.jpg",
-  //   "/images/cars/x3/x36.jpg",
-  //   "/images/cars/x3/x37.jpg",
-  //   "/images/cars/x3/x38.jpg",
-  //   "/images/cars/x3/x39.jpg",
-  //   "/images/cars/x3/x310.jpg",
+
   // ];
   const items = [
     "Amerikan parkların aktif edilmesi. (İstenirse yalnızca ayna veya yalnızca farlar olarak ayarlanabilir)",

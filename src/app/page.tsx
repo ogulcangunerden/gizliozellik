@@ -21,7 +21,6 @@ export default function Home() {
       <Hero />
       <Brands />
 
-      {/* <Features /> */}
       <Video
         title="Örnek Çalışmalarımız"
         paragraph="G20 Gizli Özellik Aktivasyonu"

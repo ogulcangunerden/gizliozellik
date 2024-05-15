@@ -15,7 +15,7 @@ const FixedLogo = () => {
         target="_blank"
       >
         <Image
-          src="/images/logo/WhatsApp_icon.png"
+          src="/images/logo/WhatsApp_icon.webp"
           alt="WhatsApp Logo"
           className="h-16 w-16 md:h-24 md:w-24"
           width={500}

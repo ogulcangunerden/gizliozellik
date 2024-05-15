@@ -21,7 +21,7 @@ const Contact = () => {
                       target="_blank"
                     >
                       <Image
-                        src="/images/logo/WhatsAppButtonGreenLarge.png"
+                        src="/images/logo/WhatsAppButtonGreenLarge.webp"
                         alt="Wp Button"
                         width={400}
                         height={400}
