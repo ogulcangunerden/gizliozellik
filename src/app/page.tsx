@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Büyükçekmece Gizli Özellik",
   description: "Büyükçekmece Gizli Özellik",
   keywords:
-    "gizli özellik, f30 gizli özellik, vag gizli özellik, g20 gizli özellik",
+    "gizli özellik, f30 gizli özellik, vag gizli özellik, g20 gizli özellik, bmw gizli özellik, gizli özellik aktivasyonu, g22 gizli özellik, g30 gizli özellik ",
   robots: "index, follow",
 };
 
