@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 const f22 = () => {
-  const images = [];
+  const images = ["/images/carousel/amerikan.webp"];
   const items = [
     "Amerikan parkların aktif edilmesi. (İstenirse yalnızca ayna veya yalnızca farlar olarak ayarlanabilir)",
     "Angel parlaklıklarının arttırılması",
@@ -42,9 +42,9 @@ const f22 = () => {
         pageName="1 Serisi -  F22"
         description="F22 Gizli özellik listesi"
       />
-      {/* <div className="mb-20  flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
-      </div> */}
+      </div>
       <List items={items} />
     </>
   );

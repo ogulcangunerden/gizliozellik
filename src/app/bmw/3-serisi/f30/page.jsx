@@ -9,9 +9,7 @@ export const metadata = {
 };
 
 const f30 = () => {
-  // const images = [
-
-  // ];
+  const images = ["/images/carousel/amerikan.webp"];
   const items = [
     "Amerikan parkların aktif edilmesi. (İstenirse yalnızca ayna veya yalnızca farlar olarak ayarlanabilir)",
     "Angel parlaklıklarının arttırılması",
@@ -43,9 +41,9 @@ const f30 = () => {
         pageName="3 Serisi -  F30"
         description="F30 Gizli özellik listesi"
       />
-      {/* <div className="mb-20 ml-14 flex">
+      <div className="mb-20 ml-14 flex">
         <Gallery images={images} />
-      </div> */}
+      </div>
       <List items={items} />
     </>
   );
