@@ -9,9 +9,19 @@ export const metadata = {
 };
 
 const f44 = () => {
-  // const images = [
-
-  // ];
+  const images = [
+    "/images/carousel/m4.webp",
+    "/images/carousel/alpina.webp",
+    "/images/carousel/düzm.webp",
+    "/images/carousel/x3m.webp",
+    "/images/carousel/sportplus.webp",
+    "/images/carousel/comfortplus.webp",
+    "/images/carousel/mmenu.webp",
+    "/images/carousel/sporgosterge.webp",
+    "/images/carousel/xview.webp",
+    "/images/carousel/bowers.webp",
+    "/images/carousel/lastikbasinc.webp",
+  ];
   const items = [
     "Sport plus modunun aktif edilmesi. (Gaz tepkisinde ciddi iyileştirme yapar.)",
     "Comfort plus modunun aktif edilmesi. (Şanzıman ve Süspansiyon konforunda ciddi iyileştirme yapar.)",
@@ -41,9 +51,9 @@ const f44 = () => {
         pageName="2 Serisi -  F44"
         description="F44 Gizli özellik listesi"
       />
-      {/* <div className="mb-20  flex">
+      <div className="mb-20  flex">
         <Gallery images={images} />
-      </div> */}
+      </div>
       <List items={items} />
     </>
   );
