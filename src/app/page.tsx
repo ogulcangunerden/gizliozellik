@@ -22,7 +22,13 @@ export default function Home() {
       <Brands />
 
       <Video
-        title="Örnek Çalışmalarımız"
+        title="Yellow DRL"
+        paragraph="F ve G Kasalar İçin stoklarımız mevcuttur. Detaylı bilgi için whatsapp veya instagram adresimizden bizlere ulaşabilirsiniz."
+        imageUrl="/images/cars/yellowdrl1.webp"
+        videoId="Zdjzrf2OwpM"
+      />
+      <Video
+        title="Gizli Özellik Aktivasyonu"
         paragraph="G20 Gizli Özellik Aktivasyonu"
         imageUrl="/images/cars/m340i.webp"
         videoId="MmfewytOljI"
