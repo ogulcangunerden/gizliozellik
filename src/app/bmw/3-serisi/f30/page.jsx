@@ -59,21 +59,8 @@ const f30 = () => {
   ];
   return (
     <>
-      <Breadcrumb
-        pageName="BMW F30 3 Serisi Gizli Özellik"
-        description="F30 için 20+ Özel Gizli Özellik ve Coding Hizmeti"
-      />
+      <Breadcrumb pageName="BMW F30 3 Serisi Gizli Özellik" />
       <div className="container mx-auto px-4">
-        <h1 className="mb-6 text-3xl font-bold">
-          BMW F30 Gizli Özellik ve Coding Hizmetleri
-        </h1>
-        <p className="mb-8 text-lg">
-          BMW F30 3 Serisi araçlar için profesyonel gizli özellik aktivasyonu ve
-          coding hizmetleri sunuyoruz. Angel eyes parlaklık artırma, spor
-          gösterge aktivasyonu, M Performance logo gibi popüler özelliklerin
-          yanı sıra, 20'den fazla özel fonksiyon ile aracınızı
-          kişiselleştirebilirsiniz.
-        </p>
         <div className="mb-20 flex">
           <Gallery images={images} />
         </div>
