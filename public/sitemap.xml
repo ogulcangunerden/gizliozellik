@@ -1,277 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>2.00</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/1-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/2-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/3-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/4-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/5-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/6-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/7-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/8-serisi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/volkswagen</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/cupra</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/skoda</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/seat</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/mercedes</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/iletisim</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/1-serisi/f20</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/1-serisi/f40</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/2-serisi/f22</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/2-serisi/f44</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/3-serisi/f30</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/3-serisi/g20</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/f32</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g22</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/5-serisi/f10</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/5-serisi/g30</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/6-serisi/f13</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/7-serisi/f01</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/7-serisi/g11</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/bmw/8-serisi/g15</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a1</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a3</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a4</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a5</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a6</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a7</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a8</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/q2</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/q3</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/q5</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/q7</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/tt</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a1/8x</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a3/8v</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a4/b8</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a4/b9</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a5/8t</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a5/f5</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a6/c7</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a6/c7fl</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a6/c8</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a7/c7</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.buyukcekmecegizliozellik.com/audi/a7/c8</loc>
-  <lastmod>2024-04-23T14:13:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.gizliozellik.com</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- BMW Sayfaları -->
+  <url>
+    <loc>https://www.gizliozellik.com/bmw/3-serisi/f30</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gizliozellik.com/bmw/3-serisi/g20</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gizliozellik.com/bmw/5-serisi/g30</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Audi Sayfaları -->
+  <url>
+    <loc>https://www.gizliozellik.com/audi</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gizliozellik.com/audi/a3</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Mercedes Sayfaları -->
+  <url>
+    <loc>https://www.gizliozellik.com/mercedes</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- VAG Grubu Sayfaları -->
+  <url>
+    <loc>https://www.gizliozellik.com/volkswagen</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gizliozellik.com/seat</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.gizliozellik.com/skoda</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- İletişim Sayfası -->
+  <url>
+    <loc>https://www.gizliozellik.com/iletisim</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
