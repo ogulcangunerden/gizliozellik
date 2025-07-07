@@ -5,7 +5,7 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title:
-    "BMW G20 3 Serisi Gizli Özellik Aktivasyonu | Sport Plus, Comfort Plus Coding İstanbul",
+    "BMW G20 3 Serisi Gizli Özellik Aktivasyonu | Sport Plus, Comfort Plus Coding Büyükçekmece",
   description:
     "BMW G20 3 Serisi (2019-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet, ücretsiz danışmanlık.",
   keywords:
@@ -27,13 +27,13 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/3-serisi/g20",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/3-serisi/g20",
   },
   other: {
     "article:section": "BMW Gizli Özellik",
     "article:tag": "BMW G20, 3 Serisi, Gizli Özellik, Coding, Sport Plus",
     "geo.region": "TR",
-    "geo.placename": "İstanbul",
+    "geo.placename": "Büyükçekmece",
   },
 };
 

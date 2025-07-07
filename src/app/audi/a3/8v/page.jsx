@@ -1,12 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import List from "@/components/List";
-import { Metadata } from "next";
 import Image from "next/image";
-
-export const metadata = {
-  title: "A3",
-  description: "A3 gizli özellik",
-};
 
 const a3 = () => {
   const items = [

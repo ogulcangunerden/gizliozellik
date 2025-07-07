@@ -18,7 +18,7 @@ export const metadata = {
     locale: "tr_TR",
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/4-serisi",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/4-serisi",
   },
 };
 

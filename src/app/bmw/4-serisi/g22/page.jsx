@@ -5,7 +5,7 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title:
-    "BMW G22 4 Serisi Coupe Gizli Özellik Aktivasyonu | Sport Plus, M Menü Coding İstanbul",
+    "BMW G22 4 Serisi Coupe Gizli Özellik Aktivasyonu | Sport Plus, M Menü Coding Büyükçekmece",
   description:
     "BMW G22 4 Serisi Coupe (2020-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet.",
   keywords:
@@ -27,13 +27,13 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/4-serisi/g22",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g22",
   },
   other: {
     "article:section": "BMW Gizli Özellik",
     "article:tag": "BMW G22, 4 Serisi Coupe, Gizli Özellik, Coding, Sport Plus",
     "geo.region": "TR",
-    "geo.placename": "İstanbul",
+    "geo.placename": "Büyükçekmece",
   },
 };
 

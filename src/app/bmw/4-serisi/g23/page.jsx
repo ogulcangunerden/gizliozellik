@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "BMW G23 4 Serisi Gizli Özellik Aktivasyonu | Coding İstanbul",
+  title: "BMW G23 4 Serisi Gizli Özellik Aktivasyonu | Coding Büyükçekmece",
   description:
     "BMW G23 4 Serisi (2020-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus, Comfort Plus, M menü, Alpina kadran ve 50+ gizli özellik. Garantili hizmet, ücretsiz danışmanlık.",
   keywords:
@@ -26,7 +26,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/4-serisi/g23",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g23",
   },
   other: {
     "article:section": "BMW Gizli Özellik",

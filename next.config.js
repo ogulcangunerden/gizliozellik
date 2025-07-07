@@ -20,7 +20,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ["react-icons"],
   },
   headers: async () => {

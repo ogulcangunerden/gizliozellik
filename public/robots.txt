@@ -18,13 +18,13 @@ User-agent: YandexBot
 Allow: /
 Crawl-delay: 2
 
-Sitemap: https://www.gizliozellik.com/sitemap.xml
+Sitemap: https://www.buyukcekmecegizliozellik.com/sitemap.xml
 
 # BMW Gizli Özellik G20, G22, G23, G26, F44, F40 modelleri
 # Önemli sayfalar:
-# https://www.gizliozellik.com/bmw/3-serisi/g20
-# https://www.gizliozellik.com/bmw/4-serisi/g22
-# https://www.gizliozellik.com/bmw/4-serisi/g23
-# https://www.gizliozellik.com/bmw/4-serisi/g26
-# https://www.gizliozellik.com/bmw/2-serisi/f44
-# https://www.gizliozellik.com/bmw/1-serisi/f40 
+# https://www.buyukcekmecegizliozellik.com/bmw/3-serisi/g20
+# https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g22
+# https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g23
+# https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g26
+# https://www.buyukcekmecegizliozellik.com/bmw/2-serisi/f44
+# https://www.buyukcekmecegizliozellik.com/bmw/1-serisi/f40 

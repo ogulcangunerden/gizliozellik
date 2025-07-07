@@ -5,7 +5,7 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title:
-    "BMW F44 2 Serisi Gran Coupe Gizli Özellik Aktivasyonu | Sport Plus, Alpina Coding İstanbul",
+    "BMW F44 2 Serisi Gran Coupe Gizli Özellik Aktivasyonu | Sport Plus, Alpina Coding Büyükçekmece",
   description:
     "BMW F44 2 Serisi Gran Coupe (2019-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet.",
   keywords:
@@ -28,14 +28,14 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/2-serisi/f44",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/2-serisi/f44",
   },
   other: {
     "article:section": "BMW Gizli Özellik",
     "article:tag":
       "BMW F44, 2 Serisi Gran Coupe, Gizli Özellik, Coding, Sport Plus",
     "geo.region": "TR",
-    "geo.placename": "İstanbul",
+    "geo.placename": "Büyükçekmece",
   },
 };
 

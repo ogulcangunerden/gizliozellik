@@ -1,19 +1,23 @@
-"use client";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import FixedLogo from "@/components/FixedLogo/FixedLogo";
 import { Inter } from "next/font/google";
-import { PreloadResources } from "./preload-resources";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-PreloadResources();
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.buyukcekmecegizliozellik.com"),
+  title: "Gizli Özellik - BMW, Audi, Mercedes Araç Coding",
+  description:
+    "BMW, Audi, Mercedes ve VAG grubu araçlar için profesyonel gizli özellik aktivasyonu ve coding hizmeti.",
+};
 
 export default function RootLayout({
   children,
@@ -25,26 +29,26 @@ export default function RootLayout({
     "@type": "AutoRepair",
     name: "Gizli Özellik - Araç Yazılım ve Coding Merkezi",
     image: [
-      "https://www.gizliozellik.com/images/logo.webp",
-      "https://www.gizliozellik.com/images/cars/g20.webp",
-      "https://www.gizliozellik.com/images/cars/g22.webp",
+      "https://www.buyukcekmecegizliozellik.com/images/logo.webp",
+      "https://www.buyukcekmecegizliozellik.com/images/cars/g20.webp",
+      "https://www.buyukcekmecegizliozellik.com/images/cars/g22.webp",
     ],
     description:
       "BMW, Audi, Mercedes ve VAG grubu araçlar için profesyonel gizli özellik aktivasyonu ve coding hizmeti. G20, G22, G23, G26, F44, F40 modelleri uzmanı.",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "İstanbul",
+      addressLocality: "Büyükçekmece",
       addressRegion: "İstanbul",
       addressCountry: "TR",
     },
     geo: {
       "@type": "GeoCoordinates",
       latitude: "41.0082",
-      longitude: "28.9784",
+      longitude: "28.5862",
     },
-    url: "https://www.gizliozellik.com",
-    telephone: "+905555555555",
-    email: "info@gizliozellik.com",
+    url: "https://www.buyukcekmecegizliozellik.com",
+    telephone: "+905306002800",
+    email: "info@buyukcekmecegizliozellik.com",
     priceRange: "₺₺",
     openingHours: ["Mo-Sa 09:00-18:00"],
     serviceType: [
@@ -56,7 +60,7 @@ export default function RootLayout({
     ],
     areaServed: {
       "@type": "Place",
-      name: "İstanbul, Türkiye",
+      name: "Büyükçekmece, İstanbul, Türkiye",
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -178,9 +182,9 @@ export default function RootLayout({
 
         {/* Geo tags */}
         <meta name="geo.region" content="TR-34" />
-        <meta name="geo.placename" content="İstanbul" />
-        <meta name="geo.position" content="41.0082;28.9784" />
-        <meta name="ICBM" content="41.0082, 28.9784" />
+        <meta name="geo.placename" content="Büyükçekmece, İstanbul" />
+        <meta name="geo.position" content="41.0082;28.5862" />
+        <meta name="ICBM" content="41.0082, 28.5862" />
 
         {/* Open Graph tags */}
         <meta property="og:site_name" content="Gizli Özellik" />
@@ -202,7 +206,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-        <link rel="canonical" href="https://www.gizliozellik.com" />
+        <link rel="canonical" href="https://www.buyukcekmecegizliozellik.com" />
 
         {/* Schema markup */}
         <script

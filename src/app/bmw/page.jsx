@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata = {
   title:
-    "BMW Gizli Özellik Aktivasyonu | G20 G22 G23 G26 F44 F40 Tüm Seriler Coding İstanbul",
+    "BMW Gizli Özellik Aktivasyonu | G20 G22 G23 G26 F44 F40 Tüm Seriler Coding Büyükçekmece",
   description:
     "BMW tüm serileri için profesyonel gizli özellik aktivasyonu. G20, G22, G23, G26, F44, F40 ve tüm F/G serisi modeller. Sport Plus, Comfort Plus, M menü, Alpina kadran. Garantili hizmet.",
   keywords:
@@ -20,7 +20,7 @@ export const metadata = {
     locale: "tr_TR",
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw",
   },
 };
 

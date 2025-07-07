@@ -5,7 +5,7 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title:
-    "BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu | Coding İstanbul",
+    "BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu | Coding Büyükçekmece",
   description:
     "BMW G26 4 Serisi Gran Coupe (2020-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus, Comfort Plus, M menü, Alpina kadran ve 50+ gizli özellik. Garantili hizmet.",
   keywords:
@@ -28,7 +28,7 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/4-serisi/g26",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/4-serisi/g26",
   },
   other: {
     "article:section": "BMW Gizli Özellik",

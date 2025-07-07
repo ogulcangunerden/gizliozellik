@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const metadata = {
   title:
-    "BMW F40 1 Serisi Gizli Özellik Aktivasyonu | Sport Plus, Comfort Plus Coding İstanbul",
+    "BMW F40 1 Serisi Gizli Özellik Aktivasyonu | Sport Plus, Comfort Plus Coding Büyükçekmece",
   description:
     "BMW F40 1 Serisi (2019-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet, ücretsiz danışmanlık.",
   keywords:
@@ -28,13 +28,13 @@ export const metadata = {
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/1-serisi/f40",
+    canonical: "https://www.buyukcekmecegizliozellik.com/bmw/1-serisi/f40",
   },
   other: {
     "article:section": "BMW Gizli Özellik",
     "article:tag": "BMW F40, 1 Serisi, Gizli Özellik, Coding, Sport Plus",
     "geo.region": "TR",
-    "geo.placename": "İstanbul",
+    "geo.placename": "Büyükçekmece",
   },
 };
 
