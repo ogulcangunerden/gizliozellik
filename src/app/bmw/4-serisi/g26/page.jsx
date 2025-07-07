@@ -5,16 +5,17 @@ import Gallery from "@/components/Gallery";
 
 export const metadata = {
   title:
-    "BMW G22 4 Serisi Coupe Gizli Özellik Aktivasyonu | Sport Plus, M Menü Coding İstanbul",
+    "BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu | Coding İstanbul",
   description:
-    "BMW G22 4 Serisi Coupe (2020-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet.",
+    "BMW G26 4 Serisi Gran Coupe (2020-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus, Comfort Plus, M menü, Alpina kadran ve 50+ gizli özellik. Garantili hizmet.",
   keywords:
-    "bmw g22 gizli özellik, g22 coding, bmw g22 sport plus, g22 comfort plus, bmw g22 m menü, g22 alpina kadran, bmw 4 serisi g22, g22 hidden features, bmw g22 özellikleri, g22 m440i, g22 420i coding",
+    "bmw g26 gizli özellik, g26 coding, bmw g26 sport plus, g26 comfort plus, bmw g26 m menü, g26 alpina kadran, bmw 4 serisi g26, g26 hidden features, bmw g26 özellikleri, g26 gran coupe",
   robots: "index, follow",
   openGraph: {
-    title: "BMW G22 4 Serisi Coupe Gizli Özellik Aktivasyonu | 50+ Özellik",
+    title:
+      "BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu | 50+ Özellik",
     description:
-      "BMW G22 4 Serisi Coupe için profesyonel gizli özellik aktivasyonu. Sport Plus modu, M kadran teması, video izleme, X menü ve daha fazlası. Garantili hizmet.",
+      "BMW G26 4 Serisi Gran Coupe için profesyonel gizli özellik aktivasyonu. Sport Plus modu, M kadran teması, video izleme ve daha fazlası. Garantili hizmet.",
     type: "article",
     locale: "tr_TR",
     images: [
@@ -22,22 +23,20 @@ export const metadata = {
         url: "/images/cars/g22.webp",
         width: 1200,
         height: 630,
-        alt: "BMW G22 4 Serisi Coupe Gizli Özellik Aktivasyonu",
+        alt: "BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu",
       },
     ],
   },
   alternates: {
-    canonical: "https://www.gizliozellik.com/bmw/4-serisi/g22",
+    canonical: "https://www.gizliozellik.com/bmw/4-serisi/g26",
   },
   other: {
     "article:section": "BMW Gizli Özellik",
-    "article:tag": "BMW G22, 4 Serisi Coupe, Gizli Özellik, Coding, Sport Plus",
-    "geo.region": "TR",
-    "geo.placename": "İstanbul",
+    "article:tag": "BMW G26, 4 Serisi Gran Coupe, Gizli Özellik, Coding",
   },
 };
 
-const G22 = () => {
+const G26 = () => {
   const images = [
     "/images/carousel/m4.webp",
     "/images/carousel/alpina.webp",
@@ -72,25 +71,59 @@ const G22 = () => {
     "Elektrikli bagaj olan araçlarda kumandadan tek basışta kapanması",
     "Geri görüş kamerasına römork kamerasının aktifleştirilmesi.",
     "Hayalet ekranlarda lastik basınçlarının kadrana getirilmesi",
+    "G26 Gran Coupe özel rear spoiler otomatik aktivasyonu",
+    "Panoramik cam tavan özel aydınlatma seçenekleri",
+    "Gran Coupe özel ambient lighting paketleri",
+    "Gelişmiş park mesafe sensörü ayarları",
+    "BMW Gesture Control genişletilmiş fonksiyonlar",
+    "Individual ses sistemi özel profilleri",
+    "Gran Coupe aerodinamik paket görsel efektleri",
+    "ConnectedDrive Gran Coupe özel servisleri",
+    "Sürücü profili Gran Coupe optimizasyonları",
   ];
+
+  // Schema markup for G26
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu",
+    description:
+      "BMW G26 4 Serisi Gran Coupe için profesyonel gizli özellik aktivasyonu ve coding hizmeti. Sport Plus, Comfort Plus ve 25+ özellik.",
+    provider: {
+      "@type": "Organization",
+      name: "Gizli Özellik",
+      url: "https://www.gizliozellik.com",
+    },
+    serviceType: "Automotive Coding Service",
+    areaServed: "İstanbul, Türkiye",
+    offers: {
+      "@type": "Offer",
+      description: "BMW G26 Gizli Özellik Aktivasyonu",
+      areaServed: "İstanbul",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <Breadcrumb
-        pageName="4 Serisi - G22 Coupe"
-        description="BMW G22 4 Serisi Coupe gizli özellik aktivasyon listesi"
+        pageName="4 Serisi - G26 Gran Coupe"
+        description="BMW G26 4 Serisi Gran Coupe (2020-2024) gizli özellik aktivasyon listesi"
       />
       <div className="mb-20 flex">
         <Gallery images={images} />
       </div>
       <div className="container mx-auto mb-8 px-4">
         <h1 className="mb-4 text-3xl font-bold">
-          BMW G22 4 Serisi Coupe Gizli Özellik Aktivasyonu
+          BMW G26 4 Serisi Gran Coupe Gizli Özellik Aktivasyonu
         </h1>
         <p className="mb-6 text-lg">
-          BMW G22 4 Serisi Coupe (2020-2024) için en kapsamlı gizli özellik
-          aktivasyon hizmeti. Sport Plus modu, Comfort Plus, M440i kadran
-          teması, video izleme ve 20+ profesyonel özellik. Coupe&apos;nizin
-          sportif karakterini maksimize edin.
+          BMW G26 4 Serisi Gran Coupe modeli için özel olarak geliştirilmiş
+          gizli özellik aktivasyonu. Gran Coupe&apos;nin lüks özelliklerine özel
+          optimizasyonlar ve standart G serisi özelliklerinin tamamı.
         </p>
       </div>
       <List items={items} />
@@ -98,4 +131,4 @@ const G22 = () => {
   );
 };
 
-export default G22;
+export default G26;

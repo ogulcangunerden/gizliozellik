@@ -5,8 +5,37 @@ import Gallery from "@/components/Gallery";
 import Image from "next/image";
 
 export const metadata = {
-  title: "F40",
-  description: "F40 gizli özellik",
+  title:
+    "BMW F40 1 Serisi Gizli Özellik Aktivasyonu | Sport Plus, Comfort Plus Coding İstanbul",
+  description:
+    "BMW F40 1 Serisi (2019-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet, ücretsiz danışmanlık.",
+  keywords:
+    "bmw f40 gizli özellik, f40 coding, bmw f40 sport plus, f40 comfort plus, bmw f40 m menü, f40 alpina kadran, bmw 1 serisi f40, f40 hidden features, bmw f40 özellikleri, f40 m135i, f40 118i coding",
+  robots: "index, follow",
+  openGraph: {
+    title: "BMW F40 1 Serisi Gizli Özellik Aktivasyonu | 50+ Özellik",
+    description:
+      "BMW F40 1 Serisi için profesyonel gizli özellik aktivasyonu. Sport Plus modu, M kadran teması, video izleme, X menü ve daha fazlası. Garantili hizmet.",
+    type: "article",
+    locale: "tr_TR",
+    images: [
+      {
+        url: "/images/cars/m135.webp",
+        width: 1200,
+        height: 630,
+        alt: "BMW F40 1 Serisi Gizli Özellik Aktivasyonu",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.gizliozellik.com/bmw/1-serisi/f40",
+  },
+  other: {
+    "article:section": "BMW Gizli Özellik",
+    "article:tag": "BMW F40, 1 Serisi, Gizli Özellik, Coding, Sport Plus",
+    "geo.region": "TR",
+    "geo.placename": "İstanbul",
+  },
 };
 
 const f40 = () => {
@@ -49,11 +78,22 @@ const f40 = () => {
   return (
     <>
       <Breadcrumb
-        pageName="1 Serisi -  F40"
-        description="F40 Gizli özellik listesi"
+        pageName="1 Serisi - F40"
+        description="BMW F40 1 Serisi gizli özellik aktivasyon listesi"
       />
-      <div className="mb-20  flex">
+      <div className="mb-20 flex">
         <Gallery images={images} />
+      </div>
+      <div className="container mx-auto mb-8 px-4">
+        <h1 className="mb-4 text-3xl font-bold">
+          BMW F40 1 Serisi Gizli Özellik Aktivasyonu
+        </h1>
+        <p className="mb-6 text-lg">
+          BMW F40 1 Serisi (2019-2024) için en kapsamlı gizli özellik aktivasyon
+          hizmeti. Sport Plus modu, Comfort Plus, M135i kadran teması, video
+          izleme ve 20+ profesyonel özellik. Kompakt BMW&apos;nizin gizli
+          performans potansiyelini keşfedin.
+        </p>
       </div>
       <List items={items} />
     </>

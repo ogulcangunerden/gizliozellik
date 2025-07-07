@@ -4,8 +4,39 @@ import { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 
 export const metadata = {
-  title: "F44",
-  description: "F44",
+  title:
+    "BMW F44 2 Serisi Gran Coupe Gizli Özellik Aktivasyonu | Sport Plus, Alpina Coding İstanbul",
+  description:
+    "BMW F44 2 Serisi Gran Coupe (2019-2024) için profesyonel gizli özellik aktivasyonu. Sport Plus modu, Comfort Plus, M menü, Alpina kadran, video izleme ve 50+ gizli özellik. Garantili hizmet.",
+  keywords:
+    "bmw f44 gizli özellik, f44 coding, bmw f44 sport plus, f44 comfort plus, bmw f44 m menü, f44 alpina kadran, bmw 2 serisi f44, f44 hidden features, bmw f44 özellikleri, f44 m235i, f44 220i coding",
+  robots: "index, follow",
+  openGraph: {
+    title:
+      "BMW F44 2 Serisi Gran Coupe Gizli Özellik Aktivasyonu | 50+ Özellik",
+    description:
+      "BMW F44 2 Serisi Gran Coupe için profesyonel gizli özellik aktivasyonu. Sport Plus modu, M kadran teması, video izleme, X menü ve daha fazlası. Garantili hizmet.",
+    type: "article",
+    locale: "tr_TR",
+    images: [
+      {
+        url: "/images/cars/f44.webp",
+        width: 1200,
+        height: 630,
+        alt: "BMW F44 2 Serisi Gran Coupe Gizli Özellik Aktivasyonu",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "https://www.gizliozellik.com/bmw/2-serisi/f44",
+  },
+  other: {
+    "article:section": "BMW Gizli Özellik",
+    "article:tag":
+      "BMW F44, 2 Serisi Gran Coupe, Gizli Özellik, Coding, Sport Plus",
+    "geo.region": "TR",
+    "geo.placename": "İstanbul",
+  },
 };
 
 const f44 = () => {
@@ -48,11 +79,22 @@ const f44 = () => {
   return (
     <>
       <Breadcrumb
-        pageName="2 Serisi -  F44"
-        description="F44 Gizli özellik listesi"
+        pageName="2 Serisi - F44 Gran Coupe"
+        description="BMW F44 2 Serisi Gran Coupe gizli özellik aktivasyon listesi"
       />
-      <div className="mb-20  flex">
+      <div className="mb-20 flex">
         <Gallery images={images} />
+      </div>
+      <div className="container mx-auto mb-8 px-4">
+        <h1 className="mb-4 text-3xl font-bold">
+          BMW F44 2 Serisi Gran Coupe Gizli Özellik Aktivasyonu
+        </h1>
+        <p className="mb-6 text-lg">
+          BMW F44 2 Serisi Gran Coupe (2019-2024) için en kapsamlı gizli özellik
+          aktivasyon hizmeti. Sport Plus modu, Comfort Plus, M235i kadran
+          teması, video izleme ve 20+ profesyonel özellik. Gran Coupe&apos;nizin
+          lüks ve spor dengesini optimize edin.
+        </p>
       </div>
       <List items={items} />
     </>
